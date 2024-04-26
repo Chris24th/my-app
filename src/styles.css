@@ -1,0 +1,31 @@
+
+.flexible-image {
+    max-width: 100%; /* Set max-width to 100% */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .c1-bg {
+    height: 400px;
+    background-image: url('./pics/books.jpg');
+    background-size: cover;
+    background-position: center;
+    /* Apply a blur effect to the background image */
+  backdrop-filter: blur(6px);
+  }
+
+  .overlay-text {
+    position: absolute; /* Position the text absolutely */
+    top: 50%; /* Position the text vertically centered */
+    left: 50%; /* Position the text horizontally centered */
+    transform: translate(-50%, -50%); /* Center the text precisely */
+    color: white; /* Text color */
+    font-size: 24px; /* Text size */
+    font-weight: bold; /* Text weight */
+    text-align: center; /* Center the text */
+    z-index: 1; /* Ensure text appears on top of background image */
+  }
+  
+  .row-posts{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
