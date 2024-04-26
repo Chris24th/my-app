@@ -1,32 +1,68 @@
-
 .flexible-image {
-    max-width: 100%; /* Set max-width to 100% */
-    height: auto; /* Maintain aspect ratio */
-  }
+  max-width: 100%;
+  /* Set max-width to 100% */
+  height: auto;
+  /* Maintain aspect ratio */
+}
 
-  .c1-bg {
-    height: 400px;
-    background-image: url('./pics/books.jpg');
-    background-size: cover;
-    background-position: center;
-    /* Apply a blur effect to the background image */
+.c1-bg {
+  height: 400px;
+  background-image: url('./pics/books.jpg');
+  background-size: cover;
+  background-position: center;
+  /* Apply a blur effect to the background image */
   backdrop-filter: blur(6px);
-  }
+}
 
-  .overlay-text {
-    position: absolute; /* Position the text absolutely */
-    top: 50%; /* Position the text vertically centered */
-    left: 50%; /* Position the text horizontally centered */
-    transform: translate(-50%, -50%); /* Center the text precisely */
-    color: white; /* Text color */
-    font-size: 24px; /* Text size */
-    font-weight: bold; /* Text weight */
-    text-align: center; /* Center the text */
-    z-index: 1; /* Ensure text appears on top of background image */
-  }
-  
-  .row-posts{
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-bottom: 10%;
-  }
+.overlay-text {
+  position: absolute;
+  /* Position the text absolutely */
+  top: 50%;
+  /* Position the text vertically centered */
+  left: 50%;
+  /* Position the text horizontally centered */
+  transform: translate(-50%, -50%);
+  /* Center the text precisely */
+  color: white;
+  /* Text color */
+  font-size: 24px;
+  /* Text size */
+  font-weight: bold;
+  /* Text weight */
+  text-align: center;
+  /* Center the text */
+  z-index: 1;
+  /* Ensure text appears on top of background image */
+}
+
+.img-posts {
+  max-height: '300px';
+  max-width: '100%';
+}
+
+.row-posts {
+  align-items: stretch;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 10%;
+}
+
+.row-footer{
+  background-color: #654321;
+  color: antiquewhite;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.btn-footer{
+  padding: 7px;
+  margin: 3px;
+  color: #4e341a;
+}
+
+.flex-center{
+  display: flex;
+  align-items: center; 
+}
