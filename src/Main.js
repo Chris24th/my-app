@@ -25,7 +25,9 @@ function App() {
           className='overlay-text'
         >
           <h1>10 UNCOMMONLY USED FILIPINO WORDS</h1>
-          <p style={{ fontSize: '17px' }}>Discover the Hidden Gems of Filipino Vocabulary</p>
+          <p style={{ fontSize: '20px', textShadow: '1px 1px 1px rgba(0,0,0,0.5)' }}>
+            Discover the Hidden Gems of Filipino Vocabulary
+          </p>
         </Row>
       </Container>
 
