@@ -25,11 +25,11 @@ function App() {
           className='overlay-text'
         >
           <h1>10 UNCOMMONLY USED FILIPINO WORDS</h1>
-          <p style={{ fontSize: '15px' }}>Discover the Hidden Gems of Filipino Vocabulary</p>
+          <p style={{ fontSize: '17px' }}>Discover the Hidden Gems of Filipino Vocabulary</p>
         </Row>
       </Container>
 
-      <Row className='row-posts intro'>
+      <Row className='intro'>
         <p>Welcome to 10 UNCOMMONLY USED FILIPINO WORDS, your ultimate destination for exploring the rich tapestry of Filipino culture, language, and heritage.
           Immerse yourself in a world of vibrant traditions, fascinating history, and unique experiences as we take you on a journey through the Philippines like never before.
           Whether you're a seasoned enthusiast or a curious newcomer, our platform offers a treasure trove of resources, stories, and insights to ignite your passion for all things Filipino.
